@@ -1,5 +1,5 @@
 *{
-   outline: 2px solid red; 
+    
 }
 /*CLASES GENERALES*/
 
@@ -26,9 +26,14 @@
 {
     margin-top: 10px;
 }
+#btn_menu
+{
+    background-color:#928989;
+}
 /*ESTA ES EL HEADER*/
-.icon-bar{color:green;}
-header .titulo { padding: 20px 80px; }
+
+header .titulo { padding: 15px 0px 0px 80px; }
+
 header nav { text-align: center; }
 header nav ul { list-style-type: none; }
 header nav ul li { display: inline; }
