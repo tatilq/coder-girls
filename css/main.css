@@ -33,7 +33,6 @@
 /*ESTA ES EL HEADER*/
 
 header .titulo { padding: 15px 0px 0px 80px; }
-
 header nav { text-align: center; }
 header nav ul { list-style-type: none; }
 header nav ul li { display: inline; }
@@ -54,7 +53,6 @@ header nav a:hover { text-decoration: none; }
 .texto
 {
     margin:0 auto;
-    outline: 2px solid green;
     padding: 120px 0px;
 }
 .texto p { color: black;}
@@ -75,6 +73,7 @@ header nav a:hover { text-decoration: none; }
     padding:10px;
     height: 350px;
 }
+.contacto h3 { padding-left: 20px; }
 form button
 {
     background-color:#1E69B6;
