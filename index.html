@@ -1,10 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Coder Girl</title>
+	<head>
+	  	<meta charset="utf-8">
+	  	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">	
+	  	<title>Coder Girl</title>	  	
+	  	<link rel="stylesheet" type="text/css" href="css/main.css">
+	  	<link rel="stylesheet" href="css/bootstrap.min.css">
+	  	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+	  	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	  	<link rel="stylesheet" type="text/css" href="css/queries.css">
+	  	<link rel="stylesheet" type="text/css" href="css/common.css">
+	  	<script src="js/jquery.js"></script>
+	  	<script src="js/bootstrap.min.js"></script>
 </head>
-<body>
-	
-</body>
+	<body>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<!--ESTE ES EL HEADER-->
+		<header>
+            <div class="container-fluid">
+                <div class="row menu">
+                    <div class="titulo col-xs-6 col-sm-6 col-md-6">
+                    	<h4><strong>Code Girls</strong></h4>
+                    </div>
+                    <div class=" col-sm- 6col-md-6 ">
+                        <nav class="navbar" role="navigation">
+			              	<div class="navbar-header text-right">
+				                <button type="button" class="navbar-toggle btn_menu glyphicon glyphicon-menu-hamburger" data-toggle="collapse"
+				                    data-target=".navbar-ex1-collapse">
+				                  <span class="sr-only">Desplegar navegación</span>
+				                  <span class="icon-bar"></span>
+				                  <span class="icon-bar"></span>
+				                  <span class="icon-bar"></span>
+				                  <span class="icon-bar"></span>
+				                </button>
+			              	</div>
+			              	<div class="collapse navbar-collapse navbar-ex1-collapse">
+				                <ul class="nav navbar-nav">
+				                    <li><a href="index.html" class="text-gray">Inicio</a></li>
+				                    <li><a href="#documental" class="text-gray">Documental</a></li>
+				                    <li><a href="#usar" class="text-gray">Hackathon</a></li>
+				                    <li><a href="contact.html" class="text-gray">Contacto</a></li>
+				                </ul>
+			       			</div>
+            			</nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--ESTE ES EL HOME-->
+		<section class="home">
+			<div class="container-fluid" >
+				<div class="row text-center">   
+					<div class="texto">
+						<h2>CHICAS QUE CAMBIAN EL MUNDO</h2><p>!Participa en nuestras actividades</p>
+		               	<button class="btn">Incribete</button>
+	               	</div>
+				</div>
+			</div>
+		</section>
+		<!--ESTE ES EL DOCUMETAL-->
+		<section class="documental" id="documental">
+			<div class="container" >
+				<h2 class="text-center">VE NUESTRO DOCUMENTAL</h2>
+				<div class="row text-center">   
+					<div class=" code_girls col-md-6 text-left">
+						<h3>CODE GIRLS</h3>
+						<p>El documental muestra el trabajo de diferentes equipos integrados por chicas de escuelas secundarias(provenientes de Estados Unidos, Brasil, India y México) que, junto con un mentor o una mentora que acompaña su experiencia, disponen de tres meses para crear un plan de negocios y una aplicacion que resuelva problemas en sus comunidades, en el marco de la compentencia Technovation</p>
+						<p>De la competencia expuesta en el documental participaron 300 equipos, d elos cuales 44 llegaron a la semifinal, luego seis resultaron finalistas y finalmente el ganador recibio un premio de 10.000 dólares</p>
+	               	</div>
+	               	<div  class="col-md-6">
+						<div class="embed-responsive embed-responsive-16by9">
+						  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cRb5iel-3Ck" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>		
+		<!--ESTA ES LA SECCION DEL HACKATON-->	
+		<section class="hackathon" id="hackathon">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/hackathon.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="hack col-md-6">
+						<h3>HACKATHON</h3>
+						<p>!Participa en nuestra hackathon "Love is Respect"!</p>
+						<p>Idea soluciones a las problematicas que te presentaremos, rodeada de chicas tan geniales como tú. Nos reuniremos el 30 d septiembre desde las 10 am.</p>
+						<button class="btn">Incribete</button>
+					</div>
+				</div>
+			</div>
+		</section>	
+		<!--ESTA ES LA SECCION DEL CONTACTO-->
+		<section class="contacto">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+						<img src="img/made_with_code.jpg" alt="" class="img-responsive">
+					</div>
+					<div class="col-md-4">
+						<h3>CONTACTO</h3>
+						<p><strong>Code Girls</strong>
+						<ul class="list-unstyled " >
+							<li>795 Folsom Ave, Suite 600</li>
+							<li>San Francisco,CA 94107</li>
+							<li>Fono:(123) 456-7890</li>
+						</ul>
+						<form class="contact_form" action="" method="post" name="contact_form">
+	                      	<div class="form-group myform"> 
+	                        	<div class="row">
+		                        	<div class="col-md-12">
+			                          	<p><input  name="name" placeholder="Nombre" class="form-control"  type="text" required ></p>
+			                          	<p><input  type="email" name="email" placeholder="Email" class="form-control"   required>
+		                                <span class="form_hint">Formato apropiado "name@something.com"</span></p>
+			                          	<p><input  name="asunto" placeholder="Asunto" class="form-control"  type="text" required></p>
+			         					<p><textarea class="form-control mensaje" rows="5" name="message" placeholder="Mensaje" required></textarea></p>
+	                              		<div>
+	                                  		<button class= "btn">Enviar</button>
+	                              		</div>
+	                       			</div>
+	                        	</div>
+	                    	</div>
+	                 	</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--ESTA ES LA SECCION DEL FOOTER-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div >
+						<p>© 2016 Code Girl. Diseñado por <small>Laboratoria</small> </p>
+					</div>
+				</div>
+			</div>
+		</footer>	
+	</body>
 </html>
