@@ -99,28 +99,6 @@ form button
     background-color:#1E69B6;
     color: white; 
 }
-/*invalido*//*
-.contact_form input:focus:invalid, .contact_form textarea:focus:invalid{
-    background: transparent url(../img/asterico.jpg) no-repeat 98% center;
-    box-shadow: 0 0 5px #d45252;
-    border-color: #b03535;
-}*/
-/*valido*//*
-.contact_form input:required:valid, .contact_form textarea:required:valid{
-    background: transparent url(../img/asterisco.jpg) no-repeat 98% center;
-    box-shadow: 0 0 5px #5cd053;
-    border-color: #28921f;
-}
-.contact_form input:focus, .contact_form textarea:focus{
-    background: transparent;
-    border: 1px solid #555;
-    box-shadow: 0 0 3px #aaa;
-    padding-right: 70px;
-}
-input:required, textarea:required{
-    background: url(../img/asterisco.png) no-repeat 98% center;
-    background-size: 1.3%;
-}*/
 /*ESTE EL FORMATO APROPIADO DEL EMAIL*/
 .form_hint{
     background: #d45252;
