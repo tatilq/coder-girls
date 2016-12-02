@@ -1,9 +1,21 @@
+*{
+    outline: 2px solid red;
+}
+/*ANIMACIONES*/
+
+@keyframes animacion 
+{
+    0% {background: yellow }
+    40% {background:#ba03fd}
+    80% {background:#F9FC67}
+    100% {background:#fd5a03}
+}
 /*CLASES GENERALES*/
 .documental , .hackathon
 {
     margin-top: 50px;
 }
-.documental h3 , .hackathon h3 , .contacto h3
+.documental h3 , .hackathon h3 
 {
     padding-bottom: 20px; 
 }
@@ -28,6 +40,7 @@
 }
 /*ESTA ES EL HEADER*/
 
+header{padding: 0 }
 header .titulo { padding: 15px 0px 0px 80px; }
 header nav { text-align: center; }
 header nav ul { list-style-type: none; }
@@ -60,7 +73,9 @@ header nav a:hover { text-decoration: none; }
 /*ESTA ES LA SECCION DE LA HACKATHON*/
 .hackathon
 {
-    background-color: #E4F11A;
+    background-color: yellow;
+    animation: animacion 50s infinite;
+
 }
 /*ESTA ES LA SECTION DEL CONTACTO*/
 .contacto img
@@ -69,7 +84,11 @@ header nav a:hover { text-decoration: none; }
     padding:10px;
     height: 350px;
 }
-.contacto h3 { padding-left: 20px; }
+
+.contacto h3 
+{ 
+    padding-left: 20px; 
+}
 form button
 {
     background-color:#1E69B6;
