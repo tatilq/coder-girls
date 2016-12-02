@@ -6,10 +6,16 @@
 @keyframes animacion 
 {
     0% {background: yellow }
+    30% {background:#fd5a03 }
     40% {background:#ba03fd}
-    80% {background:#F9FC67}
-    100% {background:#fd5a03}
+    100% {background:white}
 }
+@keyframes anima {
+    0% {background: url('../img/home.jpg') }
+    30% {background: url('../img/laboratoria.jpg') }
+    100% {background: url('../img/home.jpg') }
+}
+
 /*CLASES GENERALES*/
 .documental , .hackathon
 {
@@ -58,6 +64,7 @@ header nav a:hover { text-decoration: none; }
     color: white; 
     height:460px;
     line-height: 30px;
+    animation: anima 50s infinite;
 }
 .texto
 {
