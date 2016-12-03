@@ -1,4 +1,8 @@
-
+*
+{
+    padding: 0;
+    margin:0;
+}
 /*ANIMACIONES*/
 
 @keyframes animacion 
@@ -6,12 +10,7 @@
     0% {background: yellow }
     30% {background:#fd5a03 }
     40% {background:#ba03fd}
-    100% {background:white}
-}
-@keyframes anima {
-    0% {background: url('../img/home.jpg') }
-    30% {background: url('../img/laboratoria.jpg') }
-    100% {background: url('../img/home.jpg') }
+    100% {background:yellow}
 }
 
 /*CLASES GENERALES*/
@@ -38,10 +37,7 @@
 {
     margin-top: 10px;
 }
-#btn_menu
-{
-    background-color:#BFBBBB;
-}
+
 /*ESTA ES EL HEADER*/
 
 header{padding: 0 }
@@ -51,6 +47,14 @@ header nav ul { list-style-type: none; }
 header nav ul li { display: inline; }
 header nav ul li a { font-size: 15px; color: grey;}
 header nav a:hover { text-decoration: none; }
+header nav .icon-bar{background: black;}
+#btn_menu
+{
+    background-color:transparent;
+    border:1px solid black;
+
+}
+
 /*ESTA ES LA SECCION DEL HOME*/
 .home
 {
